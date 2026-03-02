@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang ="pt-BR">
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width = device - width", intall-scalle="1.0">
+    <title>Linguagem(C)</title>
+    <style> 
+        body {
+            background-color: #121212; 
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .head {
+            background-color: #1f1f1f;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid #007bff; 
+        }
+        nav {
+            background-color: #252525;
+            text-align: center;
+            padding: 15px;
+            position: sticky; 
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #fff; 
+        }
+        #main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #007bff;
+            border-left: 5px solid #007bff;
+            padding-left: 10px;
+        }
+        .container-variaveis {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .item-variavel {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr; 
+            background-color: #2a2a2a;
+            padding: 15px;
+            border-radius: 5px;
+            align-items: center;
+            border: 1px solid #333;
+        }
+        .item-variavel p {
+            margin: 0;
+            padding: 5px;
+        }
+        code {
+            background-color: #000;
+            color: #00ff00; 
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        fieldset {
+            border: 1px solid #444;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #1f1f1f;
+            margin-top: 50px;
+        }    
+    </style>
+
+<body>
+    <div class="head">
+            <header>
+                <h1> Bem vindo a o material de estudo digital </h1>
+                <p> Variaveis </p>
+            </header>
+    </div>
+
+    <nav>  
+        <a href="#sobre" target="_self">Introducao</a>
+        <a href="#sobre" target="_self">Variaveis</a>
+        <a href="#sobre" target="_self">Avaliacao</a>
+    </nav>
+
+    <div id="main">
+        <section id ="Introducao">
+            <h2>Linguagem (C)</h2>
+            <p>
+                A linguagem C é uma linguagem de programação criada em 1972 por Dennis Ritchie nos laboratórios da Bell Labs.
+                Ela foi desenvolvida para criar o sistema operacional Unix e se tornou uma das linguagens mais importantes da computação.
+                C é considerada uma linguagem de baixo nível, pois permite maior controle sobre o hardware e a memória do computador,
+                tornando os programas muito rápidos e eficientes. Por isso, é amplamente utilizada no desenvolvimento de sistemas operacionais,
+                drivers, sistemas embarcados, compiladores e softwares que exigem alto desempenho.
+                Sua sintaxe serviu de base para diversas linguagens modernas, como C++, Java e C#. Apesar de ser mais difícil que linguagens de alto nível,
+                aprender C ajuda a entender melhor o funcionamento interno dos computadores e os fundamentos da programação.
+            </p>
+        </section>
+
+        <section id="Variaveis">
+                <h2>Variaveis em C</h2>
+                    <article>
+                        <h3>Principais tipos de Variaveis</h3>
+                        <div class="Container variaveis">
+                            <div class = "item-variavel">
+                                <p><strong>Tipo:</strong><code>int</code></p>
+                                <p><strong>Oque faz:</strong>Armazena números inteiros (ex: 1, 10, -5)</p>
+                                <p><strong>Exemplo:</strong> <code>int idade = 25;</code></p>
+                            </div>
+
+                            <hr> <div class = "item-variavel">
+                                <p><strong>Tipo:</strong><code>float</code></p>
+                                <p><strong>Oque faz:</strong>Armazena números com casas decimais (ex: 3.14)</p>
+                                <p><strong>Exemplo:</strong> <code>float Salario = 1.518,50;</code></p>
+                            </div>
+
+                            <hr> <div class="item-variavel">
+                                <p><strong>Tipo:</strong><code>double</code></p>
+                                <p><strong>Oque faz:</strong>Armazena números com casas decimais com maior precisão e capacidade que o float.(ex: π)</p>
+                                <p><strong>Exemplo:</strong> <code>double pi = 3.1415926535;</code></p>
+                            </div>
+
+
+                            <hr> <div class = "item-varivael">
+                                <p><strong>Tipo:</strong><code>char</code></p>
+                                <p><strong>Oque faz:</strong>Armazena caracteres (ex: a,b,c...z,!,@ (pontuacoes no geral))</p>
+                                <p><strong>Exemplo:</strong> <code>char Nome[50] = Ricardo Junior ;</code></p>
+                            </div>
+                        </div>
+                    </article>
+        </section>
+    </div>
+
+    <section id = "Avaliacao">
+        <form>
+            <fieldset>
+                <legend>
+                    De sua Avaliacao Sobre os tipos de Variaveis
+                </legend>
+                <label for="name">Nome</label><br><br>
+                <input type="text" id="Nome" name="Nome"><br><br>
+
+                <label for="Turma">Turma</label><br><br>
+                <input type="text" id="Turma" name="Turma"><br><br>
+
+                <label for="Semestre">Semestre</label><br><br>
+                <input type="text" id="Semestre" name="Semestre"><br><br>
+
+                <label>Nota</label><br>
+                <input type="radio" name="gen">1
+                <input type="radio" name="gen">2
+                <input type="radio" name="gen">3
+                <input type="radio" name="gen">4
+                <input type="radio" name="gen">5<br><br>
+                
+                
+                <label >Melhoras</label><br>
+                <label for="name"> Sua Opiniao</label><br><br>
+                <input type="text" id="Opiniao" name="Opiniao"><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </section>
+    <div id = "Footer">
+        <footer>
+            <h4>Dacio Reforca as aulas por favor (estou com dificuldade)</h4>
+            <h6>by Ricardinho S2</h6>
+        </footer>
+
+    </div>
+</body>
+</html>
