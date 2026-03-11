@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Curiosidades e fatos históricos da Ciência da Computação">
     <meta name="author" content="Portal Computação">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Arquivo Confuso da Computação</title>
 </head>
 
 <body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 <div id="pagina">
 
@@ -17,38 +20,78 @@
         <p>Uma coletânea caótica de fatos históricos, curiosos e inesperados.</p>
     </header>
 
-    <nav id="menu-principal">
-        <ul>
-            <li><a href="#pioneiros">Pioneiros</a></li>
-            <li><a href="#bugs">Bugs</a></li>
-            <li><a href="#internet">Internet</a></li>
-            <li><a href="#linguagens">Linguagens</a></li>
-            <li><a href="#linha-do-tempo">Linha do Tempo</a></li>
-            <li><a href="#formulario">Envie Algo</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Barra de Navegacao</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#pioneiros">Pioneiros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#bugs">Bugs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#internet">Internet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#linguagens">Linguagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#linha-do-tempo">Linha do Tempo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formulario">Envie Algo</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <main>
-
-        <section id="pioneiros">
-            <h2>Pioneiros Esquecidos</h2>
-
+    <div class="container text-center">
+        <section id="pioneiros" class="py-5">
+            <h2 class="text-center mb-4">Pioneiros Esquecidos</h2>
+                 <div class="row">
+                    <div class="col">
+            <div class="card" style="width: 18rem; background-color: black; color: aliceblue;">
             <article>
-                <h3>Ada Lovelace</h3>
-                <p>Considerada a primeira programadora da história.</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvGz5ViIvrijpg9YIDYE8Jpof5km9pDhArMjTDb-LfYvonIJFd49tYBM_mkmE1djLmW93qt08OmgXS3CP5VOTeeqUnNxkKskM6XcS9rQE&s=10" class="card-img-top" alt="Ada Lovelace">
+                <h3 class="card-title">Ada Lovelace</h3>
+                <div class="card-body">
                 <details>
+                    <p>Considerada a primeira programadora da história.</p>
                     <summary>Ver mais</summary>
                     <p>Ela escreveu um algoritmo para a Máquina Analítica no século XIX.</p>
                 </details>
+                </div>
+                </div>
+                </div>
             </article>
 
+            <div class="col">
+            <div class="card" style="width: 18rem; background-color: black; color: aliceblue;">
             <article>
-                <h3>Alan Turing</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Alan_Turing_%281951%29.jpg/250px-Alan_Turing_%281951%29.jpg" class="card-img-top" alt="Alan touring">
+                <h3 class="card-title">Alan Turing</h3>
+                <div class="card-body">
+                <details>
+                     <summary>Ver mais</summary>
                 <p>Criador do conceito de Máquina de Turing.</p>
                 <blockquote>
                     "Podemos ver apenas um pouco do futuro, mas o suficiente para perceber que há muito a fazer."
                 </blockquote>
+                </details>
+                </div>
+            </div>
             </article>
+            </div>
+            </div>
+            </div>
 
             <aside>
                 <h4>Curiosidade lateral</h4>
