@@ -30,4 +30,23 @@ function initConta(){
     }
 },1000)};
 
+function alimentar (){
+
+    img.src = estados.comendo
+    contador = 0;
+    console.log("Comendo");
+
+    if(timeClick) clearInterval (timeClick)
+
+        timeClick = setTimeout (() => {
+            img.src = estados.feliz
+            timeOut = setTimeout (() => {
+
+                img.src = estados.normal;
+
+        },2000);
+
+        },1000);
+
 initConta();
+    }
