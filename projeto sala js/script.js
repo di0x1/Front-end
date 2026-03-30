@@ -76,7 +76,7 @@ function alimentar() {
 
   timeClick = setTimeout(() => {
     img.src = estados.feliz;
-    setStatus("Feliz e Satisfeita 😊", "success");
+    setStatus("Feliz e Satisfeito 😊", "success");
 
     timeOut = setTimeout(() => {
       img.src = estados.normal;
