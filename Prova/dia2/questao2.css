@@ -1,0 +1,143 @@
+/* ---------- Base da página ---------- */
+body {
+    background: #eaf4fc;
+    color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+#cabecalho {
+    background-color: #1a3d7c;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 40px;
+    border-radius: 12px;
+    border: 3px solid #ffd700;
+    width: 100%;
+    max-width: 800px;
+}
+
+#cabecalho h1 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+}
+
+#cabecalho h3 {
+    margin: 0;
+    font-weight: normal;
+    color: #ffd700;
+}
+
+.grupo {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 25px 30px;
+    border-radius: 12px;
+    border: 2px solid #1a3d7c;
+    width: 100%;
+    max-width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grupo h2 {
+    background-color: #1a3d7c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.grupo h4 {
+    color: #1a3d7c;
+    margin: 10px 0 5px 0;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 5px;
+}
+
+.grupo ul {
+    background-color: #f0f4ff;
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: 1px solid #d0d8e8;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.grupo ul li {
+    padding: 4px 0;
+    color: #1a3d7c;
+}
+
+.grupo details {
+    background-color: #fffbe6;
+    color: #5a4b00;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #ffd700;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.grupo details summary {
+    font-weight: bold;
+    color: #1a3d7c;
+    cursor: pointer;
+    padding: 4px 0;
+}
+
+.grupo details p {
+    margin: 10px 0 0 0;
+    line-height: 1.5;
+}
+
+/* ---------- Área de ações (botão Próximo) ---------- */
+#acoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-proximo {
+    background-color: #1a3d7c;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 8px;
+    border: 2px solid #ffd700;
+    cursor: pointer;
+}
+
+.btn-proximo:hover {
+    background-color: #ffd700;
+    color: #1a3d7c;
+}
+
+#rodape {
+    background-color: #1a3d7c;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ffd700;
+}
+
+#rodape h5 {
+    margin: 0;
+}
