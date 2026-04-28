@@ -2,72 +2,42 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Grupos da Copa do Mundo FIFA 2026</title>
+    <title>Copa do Mundo FIFA 2026</title>
     <link rel="stylesheet" href="questao2.css">
     <script src="questao3.js"></script>
 </head>
 <body>
 
-    <div id="cabecalho">
-        <h1>Grupos e Fatos - Copa do Mundo FIFA 2026</h1>
-        <h3>Conheça os grupos e curiosidades sobre as seleções participantes</h3>
+    <h1>Informações sobre a Copa do Mundo</h1>
+
+    <nav>
+        <a href="#organizacao">Organização e Sedes</a> |
+        <a href="#formato">Novo Formato</a> |
+        <a href="#expectativas">Expectativas e Impacto</a>
+    </nav>
+
+    <section id="organizacao" class="secao">
+        <h2>🌍 Organização e Sedes</h2>
+        <p>A Copa do Mundo FIFA de 2026 será a primeira edição realizada em três países: Estados Unidos, Canadá e México. Essa será também a maior Copa da história em número de cidades-sede, com partidas distribuídas por diversas regiões da América do Norte, ampliando o alcance global do torneio.</p>
+    </section>
+
+    <section id="formato" class="secao">
+        <h2>⚽ Novo Formato</h2>
+        <p>O torneio contará com 48 seleções, em vez das tradicionais 32. As equipes serão divididas em grupos, aumentando o número total de jogos e dando mais oportunidades para países de diferentes continentes participarem. Essa mudança foi promovida pela FIFA para tornar a competição mais inclusiva e competitiva.</p>
+    </section>
+
+    <section id="expectativas" class="secao">
+        <h2>🏆 Expectativas e Impacto</h2>
+        <p>A edição de 2026 promete ser uma das mais assistidas da história, com grande impacto econômico e cultural nos países-sede. Além disso, seleções tradicionais e emergentes devem protagonizar jogos de alto nível, aumentando ainda mais o interesse global pelo futebol e fortalecendo o esporte em novas regiões.</p>
+    </section>
+
+    <div class="acoes">
+        <button onclick="mostrarTabela()" class="botao-tabela">
+            Mostrar Tabela de Jogos
+        </button>
     </div>
 
-    <div id="grupo-a" class="grupo">
-        <h2>🅰️ Grupo A</h2>
-        <h4>Seleções</h4>
-        <ul>
-            <li>México</li>
-            <li>África do Sul</li>
-            <li>Coreia do Sul</li>
-            <li>República Tcheca</li>
-        </ul>
-
-        <details>
-            <summary>Saiba Mais</summary>
-            <p>O jogo de abertura será México x África do Sul. Confrontos entre Coreia do Sul e seleções europeias já ocorreram em várias Copas, com histórico equilibrado.</p>
-        </details>
-    </div>
-
-    <div id="grupo-b" class="grupo">
-        <h2>🅱️ Grupo B</h2>
-        <h4>Seleções</h4>
-        <ul>
-            <li>Canadá</li>
-            <li>Suíça</li>
-            <li>Catar</li>
-            <li>Vaga Europeia (Bósnia)</li>
-        </ul>
-
-        <details>
-            <summary>Saiba Mais</summary>
-            <p>O Canadá joga em casa, fator importante de desempenho. Catar e Suíça já se enfrentaram recentemente em amistosos internacionais.</p>
-        </details>
-    </div>
-
-    <div id="grupo-c" class="grupo">
-        <h2>🅲 Grupo C</h2>
-        <h4>Seleções</h4>
-        <ul>
-            <li>Brasil</li>
-            <li>Marrocos</li>
-            <li>Haiti</li>
-            <li>Escócia</li>
-        </ul>
-
-        <details>
-            <summary>Saiba Mais</summary>
-            <p>Brasil, Marrocos e Escócia já dividiram grupo em 1998. Brasil nunca perdeu para a Escócia em Copas.</p>
-        </details>
-    </div>
-
-    <div id="acoes">
-        <button onclick="proximo()" class="btn-proximo">Próximo</button>
-    </div>
-
-    <div id="rodape">
-        <h5>© 2026 - Informações sobre os Grupos da Copa</h5>
-    </div>
+    <p class="voltar"><a href="#">🔝 Voltar ao topo</a></p>
 
 </body>
 </html>

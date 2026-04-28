@@ -7,121 +7,91 @@ body {
     margin: 20px;
 }
 
-#cabecalho {
+h1 {
     background-color: #1a3d7c;
     color: #ffffff;
     text-align: center;
-    font-weight: bold;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 12px;
-}
-
-#cabecalho h1 {
     font-size: 32px;
-    margin: 0 0 10px 0;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-#cabecalho h3 {
+nav {
+    background-color: #ffd700;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+nav a {
+    color: #1a3d7c;
     font-size: 18px;
-    font-weight: normal;
-    color: #ffd700;
-    margin: 0;
+    text-align: center;
+    margin: 0 10px;
 }
 
-.grupo {
+.secao {
     background-color: #ffffff;
     color: #333333;
-    padding: 20px 25px;
-    margin: 20px 0;
+    padding: 20px;
+    margin: 15px 0;
     border-radius: 12px;
-    text-align: left;
-}
-
-.grupo h2 {
-    background-color: #1a3d7c;
-    color: #ffffff;
-    font-size: 26px; 
-    font-weight: bold;
-    text-align: left;
-    padding: 10px 18px;
-    border-radius: 8px;
-    margin: 0 0 15px 0;
-}
-
-.grupo h4 {
-    color: #1a3d7c;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 8px 0;
-}
-
-.grupo ul {
-    background-color: #f0f4ff;
-    color: #1a3d7c;
     font-size: 16px;
-    padding: 12px 35px;
-    margin: 0 0 15px 0;
-    border-radius: 8px;
 }
 
-.grupo ul li {
-    padding: 3px 0;
-}
-
-.grupo details {
-    background-color: #fffbe6;
-    color: #5a4b00;
-    padding: 12px 18px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.grupo details summary {
+.secao h2 {
     color: #1a3d7c;
+    font-size: 26px;
     font-weight: bold;
-    font-size: 16px;
-    cursor: pointer;
+    text-align: left;
+    background: #f0f4ff;
+    padding: 10px;
+    border-radius: 6px;
 }
 
-.grupo details p {
-    margin: 10px 0 0 0;
-    font-size: 15px;
+.secao p {
+    font-size: 17px;
+    color: #444444;
+    text-align: justify;
+    font-weight: normal;
 }
 
-#acoes {
+.acoes {
     text-align: center;
     margin: 25px 0;
 }
 
-.btn-proximo {
+.botao-tabela {
     background-color: #1a3d7c;
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    padding: 12px 30px;
+    padding: 14px 28px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
 }
 
-.btn-proximo:hover {
+.botao-tabela:hover {
     background-color: #ffd700;
     color: #1a3d7c;
 }
 
-#rodape {
-    background-color: #1a3d7c;
-    color: #ffffff;
+.voltar {
     text-align: center;
-    font-weight: normal;
-    padding: 15px;
-    margin-top: 25px;
-    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a3d7c;
 }
 
-#rodape h5 {
-    font-size: 14px;
-    margin: 0;
+.tabela-jogos {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: 25px auto;
+    border-radius: 10px;
 }
